@@ -8,7 +8,17 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.6</jdk.version>
 	</properties>
-		
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>5.0.0.Alpha2</version>
+		</dependency>
+
+	</dependencies>
 		
 	<build>
 		<finalName>mayee-${project.artifactId}</finalName>
